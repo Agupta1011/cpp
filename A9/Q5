@@ -1,0 +1,39 @@
+//Anish Gupta
+//Assignment9Q5
+#include <iostream>
+using namespace std;
+
+int main()															
+{
+	int max;												//declaring variable int max
+	cout << " This question is in accordance to Question 5 of assignment 9" << endl;
+	cout << " Kindly follow the instructions on the screen" << endl;
+	cout << " Compiler is working..... 67% complete......" << endl;
+	cout << " Please enter an integer number for the array size: ";
+	cin >> max;																	//input value for variable max being used
+	int* ptr = new int(max);												//declaring pointer as ptr
+	int i;
+	for (i = 0; i < max; i++)
+	{
+		cout << " Enter the element number " << i ;
+		cout << " : " << endl;
+		cin >> ptr [i];													//input va;ue for the poiunter ptr
+	}
+
+	cout << " Elements entred in the array are: "<<endl;				//elements present inside the array are displayed in output
+	for (i = 0; i < max; i++)
+	for (i = 0; i < max; i++)
+		cout << ptr[i] << endl<<endl;
+	
+	// Student Credentials
+
+	cout << "**********************************************************************************************" << endl;
+	cout << "Name: Anish Gupta" << endl;
+	cout << "ID: 100395093" << endl;
+	cout << "Section: R95" << endl;
+	cout << "Assignment 9____ Question 5" << endl;
+	cout << "Date: 23 November ,2020" << endl;
+	cout << "                                  Thankyou For Your valuable Time!!\n\n";
+	cout << "**********************************************************************************************" << endl;
+	return 0;
+}
